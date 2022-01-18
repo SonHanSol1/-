@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50BAD58CA3D00A90ADA08BD2 /* Pods_AMINOTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64EF2E0E7942AFCD83438324 /* Pods_AMINOTests.framework */; };
 		813FCC2E278FF137007A4378 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC2D278FF137007A4378 /* AppDelegate.swift */; };
 		813FCC30278FF137007A4378 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC2F278FF137007A4378 /* SceneDelegate.swift */; };
 		813FCC32278FF137007A4378 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC31278FF137007A4378 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		813FCC45278FF139007A4378 /* AMINOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC44278FF139007A4378 /* AMINOTests.swift */; };
 		813FCC4F278FF139007A4378 /* AMINOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC4E278FF139007A4378 /* AMINOUITests.swift */; };
 		813FCC51278FF139007A4378 /* AMINOUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FCC50278FF139007A4378 /* AMINOUITestsLaunchTests.swift */; };
+		81898D7E279654650034721C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81898D7D279654650034721C /* FirstViewController.swift */; };
+		AB878ECF25102DFEC304D878 /* Pods_AMINO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB92D4DCCB1391CB36279EC /* Pods_AMINO.framework */; };
+		D2BB3A99BD2EC4F23DA07AAC /* Pods_AMINO_AMINOUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CA9AE8E7EED354447B24361 /* Pods_AMINO_AMINOUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030DA89D8251C6AC0C202133 /* Pods-AMINO-AMINOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINO-AMINOUITests.release.xcconfig"; path = "Target Support Files/Pods-AMINO-AMINOUITests/Pods-AMINO-AMINOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		34CF090D764CA57E40B03E5A /* Pods-AMINO-AMINOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINO-AMINOUITests.debug.xcconfig"; path = "Target Support Files/Pods-AMINO-AMINOUITests/Pods-AMINO-AMINOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CA9AE8E7EED354447B24361 /* Pods_AMINO_AMINOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMINO_AMINOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4045D5B4A3D0DC55F29C0448 /* Pods-AMINO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINO.debug.xcconfig"; path = "Target Support Files/Pods-AMINO/Pods-AMINO.debug.xcconfig"; sourceTree = "<group>"; };
+		450C6005268C4393484358DD /* Pods-AMINOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINOTests.debug.xcconfig"; path = "Target Support Files/Pods-AMINOTests/Pods-AMINOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB92D4DCCB1391CB36279EC /* Pods_AMINO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMINO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64EF2E0E7942AFCD83438324 /* Pods_AMINOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMINOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		813FCC2A278FF137007A4378 /* AMINO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMINO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813FCC2D278FF137007A4378 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813FCC2F278FF137007A4378 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		813FCC4A278FF139007A4378 /* AMINOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMINOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		813FCC4E278FF139007A4378 /* AMINOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMINOUITests.swift; sourceTree = "<group>"; };
 		813FCC50278FF139007A4378 /* AMINOUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMINOUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		81898D7D279654650034721C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		B6DA38802E5ED3363B9BE7D9 /* Pods-AMINO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINO.release.xcconfig"; path = "Target Support Files/Pods-AMINO/Pods-AMINO.release.xcconfig"; sourceTree = "<group>"; };
+		CA607709ED510E6C42E66D84 /* Pods-AMINOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMINOTests.release.xcconfig"; path = "Target Support Files/Pods-AMINOTests/Pods-AMINOTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB878ECF25102DFEC304D878 /* Pods_AMINO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50BAD58CA3D00A90ADA08BD2 /* Pods_AMINOTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2BB3A99BD2EC4F23DA07AAC /* Pods_AMINO_AMINOUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522BC059FCDC742399EF4442 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4045D5B4A3D0DC55F29C0448 /* Pods-AMINO.debug.xcconfig */,
+				B6DA38802E5ED3363B9BE7D9 /* Pods-AMINO.release.xcconfig */,
+				34CF090D764CA57E40B03E5A /* Pods-AMINO-AMINOUITests.debug.xcconfig */,
+				030DA89D8251C6AC0C202133 /* Pods-AMINO-AMINOUITests.release.xcconfig */,
+				450C6005268C4393484358DD /* Pods-AMINOTests.debug.xcconfig */,
+				CA607709ED510E6C42E66D84 /* Pods-AMINOTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		813FCC21278FF136007A4378 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +113,8 @@
 				813FCC43278FF139007A4378 /* AMINOTests */,
 				813FCC4D278FF139007A4378 /* AMINOUITests */,
 				813FCC2B278FF137007A4378 /* Products */,
+				522BC059FCDC742399EF4442 /* Pods */,
+				E5CA16AC3339A283E2F40611 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +138,7 @@
 				813FCC36278FF139007A4378 /* Assets.xcassets */,
 				813FCC38278FF139007A4378 /* LaunchScreen.storyboard */,
 				813FCC3B278FF139007A4378 /* Info.plist */,
+				81898D7D279654650034721C /* FirstViewController.swift */,
 			);
 			path = AMINO;
 			sourceTree = "<group>";
@@ -127,6 +160,16 @@
 			path = AMINOUITests;
 			sourceTree = "<group>";
 		};
+		E5CA16AC3339A283E2F40611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB92D4DCCB1391CB36279EC /* Pods_AMINO.framework */,
+				3CA9AE8E7EED354447B24361 /* Pods_AMINO_AMINOUITests.framework */,
+				64EF2E0E7942AFCD83438324 /* Pods_AMINOTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813FCC54278FF139007A4378 /* Build configuration list for PBXNativeTarget "AMINO" */;
 			buildPhases = (
+				AFD80C7A456B79AC0B74F89C /* [CP] Check Pods Manifest.lock */,
 				813FCC26278FF137007A4378 /* Sources */,
 				813FCC27278FF137007A4378 /* Frameworks */,
 				813FCC28278FF137007A4378 /* Resources */,
+				DC1ADE6C75DBD4604871A24D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813FCC57278FF139007A4378 /* Build configuration list for PBXNativeTarget "AMINOTests" */;
 			buildPhases = (
+				305F946869CF037831DC4508 /* [CP] Check Pods Manifest.lock */,
 				813FCC3C278FF139007A4378 /* Sources */,
 				813FCC3D278FF139007A4378 /* Frameworks */,
 				813FCC3E278FF139007A4378 /* Resources */,
@@ -169,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 813FCC5A278FF139007A4378 /* Build configuration list for PBXNativeTarget "AMINOUITests" */;
 			buildPhases = (
+				77BBB1E224AEF6D9EF7A0036 /* [CP] Check Pods Manifest.lock */,
 				813FCC46278FF139007A4378 /* Sources */,
 				813FCC47278FF139007A4378 /* Frameworks */,
 				813FCC48278FF139007A4378 /* Resources */,
+				7D60E79EAC9733A3A12C8015 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +301,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		305F946869CF037831DC4508 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMINOTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77BBB1E224AEF6D9EF7A0036 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMINO-AMINOUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D60E79EAC9733A3A12C8015 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMINO-AMINOUITests/Pods-AMINO-AMINOUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMINO-AMINOUITests/Pods-AMINO-AMINOUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMINO-AMINOUITests/Pods-AMINO-AMINOUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFD80C7A456B79AC0B74F89C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AMINO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC1ADE6C75DBD4604871A24D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMINO/Pods-AMINO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AMINO/Pods-AMINO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AMINO/Pods-AMINO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		813FCC26278FF137007A4378 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +412,7 @@
 				813FCC32278FF137007A4378 /* ViewController.swift in Sources */,
 				813FCC2E278FF137007A4378 /* AppDelegate.swift in Sources */,
 				813FCC30278FF137007A4378 /* SceneDelegate.swift in Sources */,
+				81898D7E279654650034721C /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +586,7 @@
 		};
 		813FCC55278FF139007A4378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4045D5B4A3D0DC55F29C0448 /* Pods-AMINO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +617,7 @@
 		};
 		813FCC56278FF139007A4378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6DA38802E5ED3363B9BE7D9 /* Pods-AMINO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -494,6 +648,7 @@
 		};
 		813FCC58278FF139007A4378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450C6005268C4393484358DD /* Pods-AMINOTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -514,6 +669,7 @@
 		};
 		813FCC59278FF139007A4378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA607709ED510E6C42E66D84 /* Pods-AMINOTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +690,7 @@
 		};
 		813FCC5B278FF139007A4378 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34CF090D764CA57E40B03E5A /* Pods-AMINO-AMINOUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -552,6 +709,7 @@
 		};
 		813FCC5C278FF139007A4378 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030DA89D8251C6AC0C202133 /* Pods-AMINO-AMINOUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
